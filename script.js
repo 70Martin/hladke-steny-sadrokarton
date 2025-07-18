@@ -13,7 +13,7 @@ document.addEventListener("DOMContentLoaded", function () {
         { src: "5.jpg", alt: "Samonosná konstrukce stropu" },
         { src: "6.jpg", alt: "Vysokopevnostní sádrokarton Habito H" },
         { src: "7.jpg", alt: "Vizualizace koupelny" }, 
-  { src: "8.jpg", alt: "Q1-základní tmelení podhledu " }, 
+  { src: "8.jpg", alt: "Q1-základní tmelení podhledu" }, 
   { src: "9.jpg", alt: "Drywall Stilts" }
     ];
 
