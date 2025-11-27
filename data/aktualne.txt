@@ -1,1 +1,2 @@
-
+První testovací text z nové sekce Aktuálně.
+Můžeš přidat libovolný počet řádků.
