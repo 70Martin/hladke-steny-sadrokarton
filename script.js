@@ -35,15 +35,21 @@ document.addEventListener("DOMContentLoaded", function () {
             gallery.appendChild(galleryItem);
         });
     }
-
+    
     galerieLink.addEventListener("click", function (event) {
-        event.preventDefault();
-        if (gallery.children.length === 0) {
-            loadGallery(images);
-        }
-        galleryContainer.style.display = "block";
-        window.location.hash = "#galerie";
-    });
+    event.preventDefault();
+    if (gallery.children.length === 0) {
+        loadGallery(images);
+    }
+    galleryContainer.style.display = "block";
+    window.location.hash = "#galerie";
+    
+    // ✅ Smooth scroll do viditelné části
+    setTimeout(() => {
+        galleryContainer.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    }, 100);
+});
+    
 
     if (zavritBtn) {
         zavritBtn.addEventListener("click", function () {
